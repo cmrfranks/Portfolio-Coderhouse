@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+body{
+    background-image: url(../img/fondo1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+body background-image{
+    viewport-fit: 100%;
+}
+
+h1, h2, h3{
+    text-align: center;
+    color: aliceblue;
+}
+
+h1{
+    margin: 1rem; 
+    padding: 2rem; 
+    background-color: rgba(90, 45, 70, 0.788);
+    border: 1px solid rgb(58, 9, 9);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px; 
+}
+
+h2, h3{
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: rgba(90, 45, 70, 0.788);
+    border: 1px solid rgb(58, 9, 9);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+footer{
+    background-color: aliceblue;
+    padding: 0.5rem;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 0.5rem;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer div i:hover{
+    background-color: rgb(224, 172, 197);
+    border-radius: 15px;
+}
+
+footer div i{
+    font-size: 2rem;
+}
+
+nav div a:hover{
+    background-color: rgb(224, 172, 197);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.navbar{
+    border-radius: 20px;
+}
+
+.presentacion{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.mb-3{
+    margin-top: 1rem;
+}
+
+.form-control{
+    font-size: large;
+    color: aliceblue;
+}
+
+.form-label{
+    color: aliceblue;
+    background-color: rgba(90, 45, 70, 0.788);
+    border: 1px solid rgb(58, 9, 9);
+    padding: 0.5rem;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
