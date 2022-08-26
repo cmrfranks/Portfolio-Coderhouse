@@ -9,10 +9,7 @@ body{
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-}
-
-body background-image{
-    viewport-fit: 100%;
+    background-attachment: fixed;
 }
 
 h1, h2, h3{
@@ -94,3 +91,4 @@ nav div a:hover{
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+
